@@ -34,7 +34,7 @@ function App() {
 
     return (
         <div className="list-layout">
-            {Object.keys(data).map((item, index) => {
+            {Object.keys(data).sort((a, b) => parseInt(a) - parseInt(b)).map((item, index) => {
                 return (
                     <ul key={index}>
                         <h4>List Id - {item}</h4>
