@@ -7,6 +7,7 @@ function App() {
 
     useEffect(() => {
         const fetchData = async () => {
+            // added herokuapp url to bypass cors issue
             const result = await axios(
                 'https://cors-anywhere.herokuapp.com/https://fetch-hiring.s3.amazonaws.com/hiring.json',
             );
