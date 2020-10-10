@@ -1,0 +1,25 @@
+
+.list-layout {
+    display: block;
+    max-width: 400px;
+    margin: auto;
+}
+
+.list-layout ul {
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0
+}
+
+.list-layout ul h4 {
+    background-color: #fafafa;
+}
+
+.list-layout ul li, .list-layout ul h4 {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    position: relative
+}
